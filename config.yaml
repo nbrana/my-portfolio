@@ -5,12 +5,12 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  title: Nicholas Brana
+  author: Nicholas Brana
+  description: Nicholas Brana's personal website and portfolio.
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    [Github Pages](https://www.github.com/)
   theme:
     mainTheme: dark
     showAttribute: true
@@ -26,47 +26,31 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Nicholas Brana"
+    tagline: Cybersecurity Master's Student
+    location: "Old Bridge, NJ"
     photo: profile.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/nbrana129/"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/nbrana"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
     - item: experience
     - item: education
-    - item: publication
     - item: project
     - item: skill
     - item: hobby
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: I am a Master's student in Cybersecurity with a passion for technology and a keen interest in penetration testing. I have a strong background in computer science and a deep understanding of cybersecurity principles. My goal is to leverage my skills to contribute to the field of cybersecurity and help organizations protect their digital assets.
   experience:
     title: Experiences
     icon: fas fa-briefcase
@@ -75,77 +59,38 @@ params:
         dates: 2019 - *Present*
         company: Company Name
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
+          - Led the migration of Local AD print servers and shared drives to cloud-based Azure for three New York City charter school networks, supporting over 20+ schools.
+          - Managed asset inventory and hardware lifecycle for school devices, performing repairs and routine maintenance.
+          - Automated Chromebook lifecycle management with Python scripts, significantly reducing operational hours.
+          - Provided hands-on IT support, remediating issues with Active Directory, print servers, teacher’s laptops
+          - Delivered exceptional client support and reduced downtime through effective troubleshooting and rapid repairs.
+          - Conducted hardware QA checks on 500+ laptops and Chromebooks for teacher and student devices and repaired any damage or defects.
+      - position: Customer Engineer Intern
+        dates: June 2023 - August 2023
         url: "#"
-        company: Company Name
+        company: Ricoh USA, Inc.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
+      - degree: M.S. in Cybersecurity
+        college: Fordham University
+        dates: September 2024 - January 2026
+        thesis_title: "#"
         thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+      - degree: B.S. in Computer Science
+        college: Fordham University
+        dates: January 2021 - May 2024
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
+      - title: Malware Classification System
         url: "#"
-        description: Description of the project
-      - title: Project 2
+        description: Used ANNs to classify binary PE files as malware or benign over multiple datasets.
+      - title: National Cyber Leage Spring 2025 95th Percentile
         url: "#"
-        description: Description of the project
+        description: Achieved 95th percentile in the National Cyber League Spring 2025 competition, demonstrating advanced skills in cybersecurity challenges. Top category was network traffic analysis.
       - title: Project 3
         url: "#"
         description: Description of the project
@@ -167,6 +112,6 @@ params:
     title: Hobbies
     icon: fas fa-gamepad
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Biking
+      - hobby: Astronomy
+      - hobby: Reading
